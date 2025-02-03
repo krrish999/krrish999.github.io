@@ -1,25 +1,42 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background-color: #343a40;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.section {
+    padding: 60px 0;
 }
 
 #hero {
-    background-attachment: fixed;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#about, #projects, #experience, #contact {
+    padding: 60px 0;
 }
 
 .card {
-    transition: transform 0.2s ease;
+    margin-bottom: 30px;
 }
 
-.card:hover {
-    transform: scale(1.05);
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
