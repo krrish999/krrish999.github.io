@@ -20,7 +20,6 @@
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,6 +34,11 @@
     <section id="about" class="container py-5">
         <h2>About Me</h2>
         <p>Hello! I'm John Doe, a Java Full Stack Developer with over 7 years of experience in building n-tier applications using Java, J2EE, MVC Framework, Spring Boot, and more.</p>
+        <p>Connect with me:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a></li>
+            <li><a href="https://medium.com/@johndoe" target="_blank">Medium</a></li>
+        </ul>
     </section>
     <section id="skills" class="container py-5">
         <h2>Skills</h2>
@@ -61,20 +65,20 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card mb-4">
-                    <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                    <img data-src="images/project1.jpg" class="card-img-top lazy" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">E-commerce Platform</h5>
-                        <p class="card-text">Developed a scalable e-commerce platform using Spring Boot and Angular.</p>
+                        <p class="card-text">Developed a scalable e-commerce platform using Spring Boot and Angular. Implemented features like user authentication, product management, and payment integration. Optimized performance to handle high traffic during peak hours.</p>
                         <a href="#" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card mb-4">
-                    <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                    <img data-src="images/project2.jpg" class="card-img-top lazy" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title">Social Media App</h5>
-                        <p class="card-text">Built a social media application with real-time features using Node.js and React.</p>
+                        <p class="card-text">Built a social media application with real-time features using Node.js and React. Enabled features like user posts, comments, likes, and real-time notifications. Integrated a machine learning model to recommend friends and content to users.</p>
                         <a href="#" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
@@ -87,24 +91,6 @@
             <li>Company A - Senior Developer (Year 1 - Year 2)</li>
             <li>Company B - Lead Developer (Year 3 - Year 6)</li>
         </ul>
-    </section>
-    <section id="contact" class="container py-5">
-        <h2>Contact</h2>
-        <form>
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send</button>
-        </form>
     </section>
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2025 John Doe. All rights reserved.</p>
